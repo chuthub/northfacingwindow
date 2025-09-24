@@ -19,7 +19,8 @@ a {
     font-size: 18;
     color: lightblue;
 }
-a :hover {
+a:hover {
     color: darkorange;
     font-size: 30px;
+    text-decoration: underline;
 }
