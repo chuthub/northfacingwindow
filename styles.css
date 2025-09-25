@@ -10,6 +10,9 @@ header {
     padding: 0;
     color: lightblue;
 }
+h1 a {
+    font-size: 24px;
+}
 nav {
     text-align: center;
     margin: auto;
@@ -25,7 +28,7 @@ a:hover {
     text-decoration: underline;
 }
 @media screen and (max-width: 650px) {
-    header {
+    header, h1 a {
         font-size: 16px;
     }
 }
