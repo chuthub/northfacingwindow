@@ -26,6 +26,6 @@ a:hover {
 }
 @media screen and (max-width: 400px) {
     header {
-        font-size: 5vw;
+        font-size: 3vw;
     }
 }
