@@ -46,15 +46,21 @@ a:hover {
     margin: auto;
     border: outset gray 10px;
 }
+#quote {
+    font-size: 28pt;
+    color: lightblue;
+    margin: 20px;
+    text-align: center;
+}
 @media screen and (max-width: 650px) {
     header, h1 a {
         font-size: 16px;
     }
 }
 @media screen and (max-width: 650px) {
-    section {
+    #halfVer, #halfHor {
         width: 100%;
-        clear: both;
+       /* clear: both;*/
     }  
 }
 table, th, td {
