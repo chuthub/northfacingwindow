@@ -27,6 +27,25 @@ a:hover {
     font-size: 30px;
     text-decoration: underline;
 }
+#halfHor {
+    width: 47%;
+    height: auto;
+    float: left;
+    border: outset gray 10px;
+    margin-top: 80;
+}
+#halfVer {
+    width: 47%;
+    height: auto;
+    float: left;
+    border: outset gray 10px;
+}
+#fullHor {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    border: outset gray 10px;
+}
 @media screen and (max-width: 650px) {
     header, h1 a {
         font-size: 16px;
