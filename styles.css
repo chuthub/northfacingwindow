@@ -27,26 +27,26 @@ a:hover {
     font-size: 30px;
     text-decoration: underline;
 }
-#halfHor {
+.halfHor {
     width: 47%;
     height: auto;
     float: left;
     border: outset gray 10px;
     margin-top: 80;
 }
-#halfVer {
+.halfVer {
     width: 47%;
     height: auto;
     float: left;
     border: outset gray 10px;
 }
-#fullHor {
+.fullHor {
     width: 70%;
     height: auto;
     margin: auto;
     border: outset gray 10px;
 }
-#quote {
+.quote {
     font-size: 28pt;
     color: lightblue;
     margin: 20px;
@@ -67,4 +67,7 @@ table, th, td {
     border: solid grey 2px;
     color: lightblue;
     text-align: left;
+}
+ul li {
+    margin-bottom: 10px;
 }
