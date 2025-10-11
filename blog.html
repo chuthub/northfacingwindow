@@ -124,6 +124,9 @@
                 </div>
             </div>
         </section>
+
+        <div id="blogDisplay"></div>
+
         <form id="blogForm" style="margin: auto; color: lightblue; border: outset grey 4px; 
         width: 50%; background: linear-gradient(black, grey, black); overflow-x: auto;
         margin-top: 20px;">
@@ -137,8 +140,6 @@
             <button type="submit">Post</button>          
         </form>
 
-        <div id="blogDisplay"></div>
-
         <script>
             let form = document.getElementById("blogForm")
             let display = document.getElementById("blogDisplay")
@@ -151,13 +152,17 @@
                 let content = document.getElementById("content").value
 
                 display.innerHTML = `
-                    <h2 style="color: lightblue; float: inline-start;">${title}</h2>
-                    <h3 style="color: lightblue; float: inline-end;">${date}</h3>
-                    <div style="clear: both;"></div>
-                    <div style="width: 50%; height: auto; margin: auto; border: outset grey 10px;
-                    font-size: 20px; color: whitesmoke; padding-bottom: 20px; margin-bottom: 50px;">
-                    ${content}
-                    </div>
+                    <section style="width: 80%; height: auto; border: solid grey 4px; margin: auto; margin-top: 20px;">
+                        <div>
+                            <h2 style="color: lightblue; float: inline-start;">${title}</h2>
+                            <h3 style="color: lightblue; float: inline-end;">${date}</h3>
+                            <div style="clear: both;"></div>
+                            <div style="width: 50%; height: auto; margin: auto; border: outset grey 10px;
+                            font-size: 20px; color: whitesmoke; padding-bottom: 20px; margin-bottom: 50px;">
+                            ${content}
+                            </div>
+                        </div>
+                    </section>
                     `
 
                 form.reset()
