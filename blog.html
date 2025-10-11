@@ -154,17 +154,17 @@
                 display.innerHTML = `
                     <section style="width: 80%; height: auto; border: solid grey 4px; margin: auto; margin-top: 20px;">
                         <div>
-                            <h2 style="color: lightblue; float: inline-start;">${title}</h2>
-                            <h3 style="color: lightblue; float: inline-end;">${date}</h3>
+                            <h2 style="color: lightblue; float: inline-start; margin-left: 30px";>${title}</h2>
+                            <h3 style="color: lightblue; float: inline-end; margin-right: 30px";>${date}</h3>
                             <div style="clear: both;"></div>
                             <div style="width: 50%; height: auto; margin: auto; border: outset grey 10px;
                             font-size: 20px; color: whitesmoke; padding-bottom: 20px; margin-bottom: 50px;">
-                            ${content}
+                            <q>${content}</q>
                             </div>
                         </div>
                     </section>
                     `
-
+                    
                 form.reset()
             })
         </script>
