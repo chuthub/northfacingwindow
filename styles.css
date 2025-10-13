@@ -58,7 +58,7 @@ a:hover {
     }
 }
 @media screen and (max-width: 650px) {
-    #halfVer, #halfHor {
+    .halfVer, .halfHor {
         width: 100%;
        /* clear: both;*/
     }  
