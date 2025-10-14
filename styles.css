@@ -10,7 +10,7 @@ header {
     padding: 0;
     color: lightblue;
 }
-h1 a {
+header a {
     font-size: 34px;
 }
 nav {
